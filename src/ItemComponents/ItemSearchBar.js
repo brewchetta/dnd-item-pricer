@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ItemSearchBar = ({searchInput, setSearchInput, searchRarity, setSearchRarity}) => {
+const ItemSearchBar = ({searchInput, setSearchInput, searchRarity, setSearchRarity, setRandomItem}) => {
 
   return (
     <div className='item-search-bar'>
@@ -23,6 +23,11 @@ const ItemSearchBar = ({searchInput, setSearchInput, searchRarity, setSearchRari
         {/* <option value="artifact">Artifact</option> */}
 
       </select>
+
+      <input type="button"
+      value={"Random Item"}
+      onClick={setRandomItem}
+      />
 
     </div>
   )
