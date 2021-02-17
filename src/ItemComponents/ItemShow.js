@@ -1,4 +1,5 @@
 import React from 'react'
+import beyondIcon from '../assets/beyond-icon.png'
 import createItemPrice from '../createItemPrice'
 
 const capitalize = str => str.replace(str[0], str[0].toUpperCase())
@@ -27,12 +28,16 @@ const ItemShow = ({shownItem, setShownItem, itemsChosen, setItemsChosen, itemPri
     return itemPrices[shownItem.name]
   }
 
+  const parseBeyondURL = () => `https://www.dndbeyond.com/magic-items/${shownItem.name.toLowerCase().replace(/[,+'"]/g, "").replaceAll(" ","-")}`
+
   // const stripAsterisks = paragraph => paragraph.replace(/\*+\w+\S\*+/g, text => text.replace(/\*+/g, ""))
   const stripAsterisks = paragraph => paragraph.replace(/\*+/g, "")
 
   if (shownItem) {
     return (
       <div className="item-show">
+
+        <a href={parseBeyondURL()} target="__blank"><img src={beyondIcon} alt="D&D Beyond" /></a>
 
         <p>
 
