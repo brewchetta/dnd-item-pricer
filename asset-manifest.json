@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/dnd-item-pricer/static/css/main.b0d83a18.chunk.css",
-    "main.js": "/dnd-item-pricer/static/js/main.ef055739.chunk.js",
-    "main.js.map": "/dnd-item-pricer/static/js/main.ef055739.chunk.js.map",
-    "runtime-main.js": "/dnd-item-pricer/static/js/runtime-main.b2beb759.js",
-    "runtime-main.js.map": "/dnd-item-pricer/static/js/runtime-main.b2beb759.js.map",
-    "static/js/2.97c88d98.chunk.js": "/dnd-item-pricer/static/js/2.97c88d98.chunk.js",
-    "static/js/2.97c88d98.chunk.js.map": "/dnd-item-pricer/static/js/2.97c88d98.chunk.js.map",
+    "main.css": "/dnd-item-pricer/static/css/main.ac5a483a.chunk.css",
+    "main.js": "/dnd-item-pricer/static/js/main.68f3023d.chunk.js",
+    "main.js.map": "/dnd-item-pricer/static/js/main.68f3023d.chunk.js.map",
+    "runtime-main.js": "/dnd-item-pricer/static/js/runtime-main.d38e9c17.js",
+    "runtime-main.js.map": "/dnd-item-pricer/static/js/runtime-main.d38e9c17.js.map",
+    "static/js/2.ce6c64d1.chunk.js": "/dnd-item-pricer/static/js/2.ce6c64d1.chunk.js",
+    "static/js/2.ce6c64d1.chunk.js.map": "/dnd-item-pricer/static/js/2.ce6c64d1.chunk.js.map",
     "index.html": "/dnd-item-pricer/index.html",
-    "static/css/main.b0d83a18.chunk.css.map": "/dnd-item-pricer/static/css/main.b0d83a18.chunk.css.map",
-    "static/js/2.97c88d98.chunk.js.LICENSE.txt": "/dnd-item-pricer/static/js/2.97c88d98.chunk.js.LICENSE.txt",
+    "static/css/main.ac5a483a.chunk.css.map": "/dnd-item-pricer/static/css/main.ac5a483a.chunk.css.map",
+    "static/js/2.ce6c64d1.chunk.js.LICENSE.txt": "/dnd-item-pricer/static/js/2.ce6c64d1.chunk.js.LICENSE.txt",
     "static/media/coinstack.c508fd07.png": "/dnd-item-pricer/static/media/coinstack.c508fd07.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2beb759.js",
-    "static/js/2.97c88d98.chunk.js",
-    "static/css/main.b0d83a18.chunk.css",
-    "static/js/main.ef055739.chunk.js"
+    "static/js/runtime-main.d38e9c17.js",
+    "static/js/2.ce6c64d1.chunk.js",
+    "static/css/main.ac5a483a.chunk.css",
+    "static/js/main.68f3023d.chunk.js"
   ]
 }
