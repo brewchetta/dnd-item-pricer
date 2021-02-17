@@ -36,7 +36,6 @@ const ItemShow = ({shownItem, setShownItem, itemsChosen, setItemsChosen, itemPri
     }
   }
 
-  // const stripAsterisks = paragraph => paragraph.replace(/\*+\w+\S\*+/g, text => text.replace(/\*+/g, ""))
   const stripAsterisks = paragraph => paragraph.replace(/\*+/g, "")
 
   if (shownItem) {
