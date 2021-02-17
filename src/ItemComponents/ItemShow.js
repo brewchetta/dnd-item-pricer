@@ -28,7 +28,13 @@ const ItemShow = ({shownItem, setShownItem, itemsChosen, setItemsChosen, itemPri
     return itemPrices[shownItem.name]
   }
 
-  const parseBeyondURL = () => `https://www.dndbeyond.com/magic-items/${shownItem.name.toLowerCase().replace(/[,+'"]/g, "").replaceAll(" ","-")}`
+  const parseBeyondURL = () => {
+    if (shownItem.name.includes("Potion") && shownItem.name.includes("Healing")) {
+      return `https://www.dndbeyond.com/magic-items/potion-of-healing`
+    } else {
+      return `https://www.dndbeyond.com/magic-items/${shownItem.name.toLowerCase().replace(/[,+'"]/g, "").replaceAll(" ","-")}`
+    }
+  }
 
   // const stripAsterisks = paragraph => paragraph.replace(/\*+\w+\S\*+/g, text => text.replace(/\*+/g, ""))
   const stripAsterisks = paragraph => paragraph.replace(/\*+/g, "")
