@@ -68,6 +68,7 @@ button {
   max-height: 42vh;
   background: #fffc;
   padding: 1em;
+  position: relative;
   border-radius: 5px;
   overflow: auto;
   transition: background 0.5s;
@@ -75,4 +76,11 @@ button {
 
 .item-show:hover {
   background: #fffe;
+}
+
+#beyond-icon {
+  width: 30px;
+  position: absolute;
+  top: 0.5em;
+  right: 0;
 }

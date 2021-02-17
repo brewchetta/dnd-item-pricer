@@ -42,7 +42,9 @@ const ItemShow = ({shownItem, setShownItem, itemsChosen, setItemsChosen, itemPri
     return (
       <div className="item-show">
 
-        <a href={parseBeyondURL()} target="__blank"><img src={beyondIcon} alt="D&D Beyond" /></a>
+        <a href={parseBeyondURL()} target="__blank">
+          <img id="beyond-icon" src={beyondIcon} alt="D&D Beyond" />
+        </a>
 
         <p>
 
