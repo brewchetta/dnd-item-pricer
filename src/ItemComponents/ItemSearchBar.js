@@ -1,14 +1,21 @@
 import React from 'react'
 
-const ItemSearchBar = ({searchInput, setSearchInput, searchRarity, setSearchRarity, setRandomItem}) => {
+const ItemSearchBar = ({searchInput, setSearchInput, searchRarity, setSearchRarity, setRandomItem, itemNames}) => {
+
+  const itemNameOptions = itemNames.map(name => <option value={name} />)
 
   return (
     <div className='item-search-bar'>
 
       <input type='text'
+      list="item-names"
       placeholder="Search"
       value={searchInput}
       onChange={e => setSearchInput(e.target.value)} />
+
+      <datalist id="item-names">
+        {itemNameOptions}
+      </datalist>
 
       <select value={searchRarity}
       onChange={e => setSearchRarity(e.target.value)}>

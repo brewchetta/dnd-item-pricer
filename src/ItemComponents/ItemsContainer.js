@@ -39,12 +39,14 @@ const ItemsContainer = () => {
 
   const setRandomItem = () => setShownItem(currentItems[Math.floor(Math.random()*currentItems.length)])
 
+  const itemNames = currentItems.map(item => item.name)
+
   return (
     <div id="items-container">
 
       <div id="item-finder">
 
-        <ItemSearchBar {...{searchInput, setSearchInput, searchRarity, setSearchRarity, setRandomItem}} />
+        <ItemSearchBar {...{searchInput, setSearchInput, searchRarity, setSearchRarity, setRandomItem, itemNames}} />
 
         <ItemsList {...{currentItems, setShownItem, itemsChosen, setItemsChosen, itemPrices}} />
 
