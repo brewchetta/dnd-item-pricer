@@ -25,7 +25,8 @@ const ItemSearchBar = ({searchInput, setSearchInput, searchRarity, setSearchRari
       </select>
 
       <input type="button"
-      value={"Random Item"}
+      id="random-item-button"
+      value={"🎲"}
       onClick={setRandomItem}
       />
 
