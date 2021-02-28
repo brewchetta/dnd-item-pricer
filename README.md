@@ -7,6 +7,9 @@ A live version of the site exists [here](https://brewchetta.github.io/dnd-item-p
 
 ## Changelog
 
+2.2.0
+- Differentiated spell scroll rarity by level
+
 2.1.0
 - Added link to D&D Beyond for items
 - Added datalist for searching for items
