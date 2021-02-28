@@ -31,6 +31,8 @@ const ItemShow = ({shownItem, setShownItem, itemsChosen, setItemsChosen, itemPri
   const parseBeyondURL = () => {
     if (shownItem.name.includes("Potion") && shownItem.name.includes("Healing")) {
       return `https://www.dndbeyond.com/magic-items/potion-of-healing`
+    if (shownItem.name.includes("Potion") && shownItem.name.includes("Spell Scroll")) {
+      return `https://www.dndbeyond.com/magic-items/spell-scroll`
     } else {
       return `https://www.dndbeyond.com/magic-items/${shownItem.name.toLowerCase().replace(/[,+'"]/g, "").replaceAll(" ","-")}`
     }
